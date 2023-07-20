@@ -1,0 +1,37 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "crawler-request": "^1.2.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "groupdocs-parser-cloud": "^22.12.0",
+    "html-docx-js": "^0.3.1",
+    "ipapi.co": "^0.3.0",
+    "jsonwebtoken": "^9.0.0",
+    "mysql": "^2.18.1",
+    "node-fetch": "^2.6.11",
+    "nodemon": "^2.0.22",
+    "openai": "^3.3.0",
+    "passport": "^0.5.3",
+    "passport-google-oauth20": "^2.0.0",
+    "pdfjs": "^2.5.0",
+    "readline-sync": "^1.4.10",
+    "util": "^0.12.5"
+  }
+}
